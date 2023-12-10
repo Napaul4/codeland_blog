@@ -1,0 +1,73 @@
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+header {
+    background-color: #18181b;
+
+    h1 {
+        color: #fff;
+
+        span {
+            color: #e07b67;
+        }
+    }
+
+    .search {
+        input {
+            background-color: #202024;
+            font-family: 'Inter', sans-serif;
+            color: #fff;
+
+            &::placeholder {
+                color: #fff;
+            }
+
+            &:focus {
+                border: 2px solid #252529;
+                outline: none;
+            }
+        }
+
+        .search-icon {
+            color: #fff;
+            justify-content: flex-start;
+        }
+    }
+}
+
+main {
+    background-color: #121214;
+    border-top: 1px solid #121214;
+
+    time, p {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .card {
+        background-color: #17171a;
+        color: #fff;
+        border: 2px solid #252529;
+
+        &:hover {
+            border: 2px solid #e07b67;
+        }
+        
+        .card-header {
+            color: #e07b67;
+
+            .bi.bi-heart {
+                cursor: pointer;
+            }
+
+            .bi-heart-fill {
+                cursor: pointer;
+            }
+        }
+
+        .card-title {
+            font-weight: bold;
+        }
+
+    }
+}

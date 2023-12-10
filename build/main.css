@@ -1,0 +1,59 @@
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  background-color: #18181b;
+}
+header h1 {
+  color: #fff;
+}
+header h1 span {
+  color: #e07b67;
+}
+header .search input {
+  background-color: #202024;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+header .search input::placeholder {
+  color: #fff;
+}
+header .search input:focus {
+  border: 2px solid #252529;
+  outline: none;
+}
+header .search .search-icon {
+  color: #fff;
+  justify-content: flex-start;
+}
+
+main {
+  background-color: #121214;
+  border-top: 1px solid #121214;
+}
+main time, main p {
+  font-family: "Inter", sans-serif;
+}
+main .card {
+  background-color: #17171a;
+  color: #fff;
+  border: 2px solid #252529;
+}
+main .card:hover {
+  border: 2px solid #e07b67;
+}
+main .card .card-header {
+  color: #e07b67;
+}
+main .card .card-header .bi.bi-heart {
+  cursor: pointer;
+}
+main .card .card-header .bi-heart-fill {
+  cursor: pointer;
+}
+main .card .card-title {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */
