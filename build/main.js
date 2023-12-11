@@ -7,4 +7,17 @@ $(document).ready(function() {
             $(this).removeClass("bi-heart-fill").addClass("bi-heart");
         }
     })
+
+    $("input").on('input', function() {
+        var searchTerm = $(this).val().toLowerCase();
+
+        $('.card').each(function() {
+            var cardText = $(this).text().toLowerCase();
+
+            
+            $(this).toggle(cardText.includes(searchTerm));
+        })
+
+    })
 })
+
